@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:gravity="center_horizontal"
+        >
+
+        <!--face-linkedin-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--face-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/face"
+                    android:id="@+id/imgFace" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center_horizontal"
+                    android:text="/leobenedeti"
+                    android:id="@+id/txtFace" />
+
+
+            </LinearLayout>
+
+            <!--Linkedin-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/in"
+                    android:id="@+id/imgIn" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center_horizontal"
+                    android:text="/leonardobenedeti"
+                    android:id="@+id/txtIn" />
+
+
+            </LinearLayout>
+
+            <!--Tweeter-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/twtr"
+                    android:id="@+id/imgTwtr" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center_horizontal"
+                    android:text="\@LeonardoBSM"
+                    android:id="@+id/txtTwtr" />
+
+
+            </LinearLayout>
+
+            <!--Instagram-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/insta"
+                    android:id="@+id/imgInsta" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center_horizontal"
+                    android:text="\@leonardobenedeti"
+                    android:id="@+id/txtInsta" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <!--enviar email-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Enviar email"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="#FFFFFF"/>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#FFFFFF"/>
+
+            <EditText
+                android:id="@+id/formNome"
+                android:layout_width="match_parent"
+                android:paddingTop="10dp"
+                android:layout_height="30dp"
+                android:inputType="textPersonName"
+                android:hint="Nome"
+                android:ems="10"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#80FFFFFF"
+                android:background="@android:color/transparent"
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#FFFFFF"/>
+
+            <EditText
+                android:id="@+id/formEmail"
+                android:layout_width="match_parent"
+                android:paddingTop="10dp"
+                android:layout_height="30dp"
+                android:inputType="textEmailAddress"
+                android:hint="Email"
+                android:ems="10"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#80FFFFFF"
+                android:background="@android:color/transparent"
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#FFFFFF"/>
+
+
+            <EditText
+                android:id="@+id/formPhone"
+                android:layout_width="match_parent"
+                android:paddingTop="10dp"
+                android:layout_height="30dp"
+                android:inputType="phone"
+                android:hint="(XX) XXXX-XXXXX"
+                android:ems="10"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#80FFFFFF"
+                android:background="@android:color/transparent"
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#FFFFFF"/>
+
+            <EditText
+                android:id="@+id/formAssunto"
+                android:layout_width="match_parent"
+                android:paddingTop="10dp"
+                android:layout_height="30dp"
+                android:hint="Assunto"
+                android:ems="10"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#80FFFFFF"
+                android:background="@android:color/transparent"
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#FFFFFF"/>
+
+            <EditText
+                android:id="@+id/formMsg"
+                android:layout_width="match_parent"
+                android:paddingTop="10dp"
+                android:layout_height="30dp"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:hint="Mensagem"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#80FFFFFF"
+                android:background="@android:color/transparent"
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#FFFFFF"/>
+
+            <ImageView
+                android:id="@+id/enviar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:src="@drawable/ic_envia_email"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

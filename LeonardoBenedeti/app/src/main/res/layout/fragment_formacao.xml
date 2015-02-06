@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        >
+
+        <!--graduacao-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="start"
+            android:text="Graduação"
+            android:paddingTop="10dp"
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/imgFoa"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:src="@drawable/unifoa"
+                android:gravity="center_vertical"
+                />
+
+            <TextView
+                android:id="@+id/graduacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="Graduação"
+                />
+
+        </LinearLayout>
+
+
+        <!--tecnico-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="start"
+            android:text="Técnico"
+            android:paddingTop="10dp"
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"
+            />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgFaetec"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:src="@drawable/faetec"
+                android:gravity="center_vertical"
+                />
+
+            <TextView
+                android:id="@+id/tecnico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="Técnico"
+                />
+
+        </LinearLayout>
+
+
+        <!--cursos-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="start"
+            android:text="Cursos"
+            android:paddingTop="10dp"
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/alura"
+                />
+
+            <TextView
+                android:id="@+id/cursos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:paddingLeft="5dp"
+                android:text="Cursos"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Leonardo Benedeti</string>
+    <string name="title_home">Home</string>
+    <string name="title_perfil">Perfil</string>
+    <string name="title_formacao">Formação</string>
+    <string name="title_exp">Experiência</string>
+    <string name="title_recursos">Recursos do app</string>
+    <string name="title_contato">Contato</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

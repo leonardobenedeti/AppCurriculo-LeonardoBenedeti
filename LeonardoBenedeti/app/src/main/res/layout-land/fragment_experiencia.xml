@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        >
+
+        <!--allmost-->
+        <TextView
+            android:id="@+id/allmost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:text="All Most"
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgAllmost"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/allmost"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/periodoAllmost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="periodo"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:paddingLeft="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/projetosAllMost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Principal Projeto"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:paddingLeft="30dp"
+                    android:onClick="showPopUpWindow"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/descAllMost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desc All Most"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="5dp"/>
+
+
+
+
+
+        <!--coca-->
+        <TextView
+            android:id="@+id/coca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="CiaFlu - Coca Cola Porto Real - RJ"
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgCoca"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/coca"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/periodoCoca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="periodo"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:paddingLeft="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/projetosCoca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Principal Projeto"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:paddingLeft="30dp"
+                    android:onClick="showPopUpWindow"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/descCoca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desc Coca"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="5dp"/>
+
+
+
+        <!--csn-->
+        <TextView
+            android:id="@+id/csn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="CSN - Companhia Siderúrgica Nacional"
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgCsn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/csn"
+                android:paddingTop="5dp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/periodoCsn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="periodo"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:paddingLeft="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/projetosCsn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Principal Projeto"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:paddingLeft="30dp"
+                    android:onClick="showPopUpWindow"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/descCsn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desc Csn"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="5dp"/>
+
+
+    </LinearLayout>
+</ScrollView>
